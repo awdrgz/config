@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/redey
+    username: redey
+    password: redey
+    driverclassname: org.h2.Driver
+    platform: h2
+    
+  jpa:
+    properties:
+      eclipselink.ddl-generation.output-mode: sql-script
+      eclipselink.ddl-generation: create-tables
+
+server:
+  port: 8091
+  compression:
+    enabled: true
+    
+endpoints:
+    sensitive: false
+management:
+    context-path: /manage
+    security: 
+        enabled: false
+
+game:
+  rest:
+    url: http://localhost:8091/game/
+
+user:
+  rest:
+    url: http://localhost:8092/user/
