@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/redey
+    url: jdbc:h2:~/redey
     username: redey
     password: redey
     driverclassname: org.h2.Driver
@@ -12,7 +12,7 @@ spring:
       eclipselink.ddl-generation: create-tables
 
 server:
-  port: 8092
+  port: 8091
   compression:
     enabled: true
     

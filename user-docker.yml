@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/redey
+    url: jdbc:h2:~/redey
     username: redey
     password: redey
     driverclassname: org.h2.Driver
