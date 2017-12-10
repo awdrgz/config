@@ -25,8 +25,8 @@ management:
 
 game:
   rest:
-    url: http://localhost:8091/game/
+    url: http://game:8091/game/
 
 user:
   rest:
-    url: http://localhost:8092/user/
+    url: http://user:8092/user/
